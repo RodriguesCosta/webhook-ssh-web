@@ -32,6 +32,13 @@ export default function SiteWrapper({ children }) {
           </Nav.Item>
         ),
       }}
+      footerProps={{
+        copyright: (
+          <React.Fragment>
+            <a href={window.location.origin}> Webhook SSH</a>.
+          </React.Fragment>
+        )
+      }}
     >
       {children}
     </Site.Wrapper>
