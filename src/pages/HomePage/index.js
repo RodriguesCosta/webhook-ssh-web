@@ -204,6 +204,7 @@ export default function HomePage() {
                       <Form.Textarea
                         type="text"
                         placeholder="Command"
+                        rows="12"
                         onChange={(e) => {
                           setCommand(e.target.value)
                         }}
